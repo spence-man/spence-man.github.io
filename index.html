@@ -1,122 +1,29 @@
-<html>
-    <head>
-      <title>Cowboy Coder</title>
-        <style>
-              body {
-                color: red;
-    margin: 0;
-    background-color: #000;
-    padding: 150px 200px;
-    }
-
-    .center-me {
-  margin: 0 auto;
-  text-align: center;
-}
-
-      div.spinner {
-    border-width: 0px 1px 15px 3px;
-    border-style: solid;
-    border-color: #F9F9F9;
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 15%;
-    top: 15%;
-    }
-
-      div.spinner:first-child {
-    animation: spinone 2s linear infinite;
-    }
-
-      div.spinner:nth-child(2) {
-    animation: spintwo 2.5s linear infinite;
-    }
-
-      div.spinner:last-child {
-    animation: spinthree 3s linear infinite;
-    border-width: 0px 0px 6px 3px;
-    }
-
-      div.holder {
-    width: 300px;
-    height: 300px;
-    animation: spinthree 21s ease-out infinite;
-    transform-origin: center center;
-    }
-    .jared {
-    position: absolute;
-    top: 300px;
-    left: 200px;
-    width: 300px;
-    height: 300px;
-    margin:-60px 0 0 -60px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-      @keyframes spinone {
-    from {
-        transform: rotateX(70deg) rotateZ(0deg);
-        }
-
-    to {
-        transform: rotateX(70deg) rotateZ(360deg);
-        }
-    }
-
-      @keyframes spintwo {
-    from {
-        transform: rotateY(80deg) rotateZ(0deg);
-        }
-
-    to {
-        transform: rotateY(80deg) rotateZ(360deg);
-        }
-    }
-
-      @keyframes spinthree {
-    from {
-        transform: rotateZ(0deg) rotateX(20deg);
-        }
-
-    to {
-        transform: rotateZ(360deg) rotateX(20deg);
-        }
-    }
-      </style>
-    </head>
-    <body style="background-image: url(https://media.giphy.com/media/nGMnDqebzDcfm/giphy.gif);  height: 100%; background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;) alt="Smiley face" height="150" width="150"); background-size:cover;">
-
-  <div class="center-me">
-      <h1></h1>
-      <img src="https://i.imgur.com/vXdpJEm.jpg" height="600" width="600" class="jared">
-  <div class="holder center-me">
-    <div class="spinner"></div>
-    <div class="spinner"></div>
-    <img src="https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif" height="100" width="100">
-
-    <div class="spinner"></div>
-
-    <img src="https://media.giphy.com/media/etBagDDksDcqY/giphy.gif" height="100" width="100">
-    <img src="https://media.giphy.com/media/etBagDDksDcqY/giphy.gif" height="100" width="100">
-    <img src="https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif" height="100" width="100">
-
-
-  </div>
-
-
-      <img src="https://media.giphy.com/media/DmjVP2DwcYLni/giphy.gif" >
-      <img src="https://media.giphy.com/media/rMS1sUPhv95f2/giphy.gif">
-      <img src="https://media.giphy.com/media/6DWHI2oMAjFzW/giphy.gif">
-
-  </div>
-    </body>
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Spencer Mandzik</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h1>Spencer Mandzik</h1>
+            <h2>web developer</h2>
+        </div>
+        <div class="item-sidebar">
+            <ul>
+                <li><a href="https://github.com/spence-man">github</a></li>
+                <li><a href="https://www.linkedin.com/in/spenceman/">linkedin</a></li>
+            </ul>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="cowboy.html">c</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
 </html>
